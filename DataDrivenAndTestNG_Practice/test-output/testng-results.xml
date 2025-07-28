@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-24T01:58:43 IST" name="Default suite" finished-at="2025-07-24T01:58:49 IST" duration-ms="5840">
+    <groups>
+    </groups>
+    <test started-at="2025-07-24T01:58:43 IST" name="Default test" finished-at="2025-07-24T01:58:49 IST" duration-ms="5840">
+      <class name="dd_Framework.DDF04DataDrivenUsingPOI">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:43 IST" name="browserLaunch" finished-at="2025-07-24T01:58:46 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="practiceSiteLogin(java.lang.String,java.lang.String)[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:47 IST" name="practiceSiteLogin" data-provider="loginDataProvider" finished-at="2025-07-24T01:58:48 IST" duration-ms="953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceSiteLogin -->
+        <test-method signature="practiceSiteLogin(java.lang.String,java.lang.String)[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:48 IST" name="practiceSiteLogin" data-provider="loginDataProvider" finished-at="2025-07-24T01:58:48 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inalid_username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceSiteLogin -->
+        <test-method signature="practiceSiteLogin(java.lang.String,java.lang.String)[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:48 IST" name="practiceSiteLogin" data-provider="loginDataProvider" finished-at="2025-07-24T01:58:49 IST" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid_Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceSiteLogin -->
+        <test-method signature="practiceSiteLogin(java.lang.String,java.lang.String)[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:49 IST" name="practiceSiteLogin" data-provider="loginDataProvider" finished-at="2025-07-24T01:58:49 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inalid_username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid_Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceSiteLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:dd_Framework.DDF04DataDrivenUsingPOI@57250572]" started-at="2025-07-24T01:58:49 IST" name="closeBrowser" finished-at="2025-07-24T01:58:49 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dd_Framework.DDF04DataDrivenUsingPOI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

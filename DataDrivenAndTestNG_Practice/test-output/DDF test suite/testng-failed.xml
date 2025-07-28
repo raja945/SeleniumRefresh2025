@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [DDF test suite]" verbose="10">
+  <test thread-count="4" parallel="methods" name="DDF excel Input(failed)" verbose="10">
+    <classes>
+      <class name="dd_Framework.DDF_03_exccelInput">
+        <methods>
+          <include name="practiceSiteLogin"/>
+        </methods>
+      </class> <!-- dd_Framework.DDF_03_exccelInput -->
+    </classes>
+  </test> <!-- DDF excel Input(failed) -->
+</suite> <!-- Failed suite [DDF test suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DDF test suite" verbose='10' parallel="tests" thread-count="4" preserve-order="true">
+
+	<test name="DDF parameter">
+		<parameter name="url"
+			value="https://practicetestautomation.com/practice-test-login/" />
+		<classes>
+			<class name="dd_Framework.DDF01_Parameterisation" />
+		</classes>
+	</test>
+	<test name="DDF dataprovider">
+		<classes>
+			<class name="dd_Framework.DDF02_DataProvider" />
+		</classes>
+	</test>
+	
+	<test name="DDF excelInputusing Jxl">
+		<classes>
+			<class name="dd_Framework.DDF03_jxlDataDrivenexccelInput" />
+		</classes>
+	</test>
+	
+	<test name="DDF excelInputusing appachePOI">
+		<classes>
+			<class name="dd_Framework.DDF04DataDrivenUsingPOI" />
+		</classes>
+	</test>
+	
+	<test name="TestNG01">
+		<classes>
+			<class name="org.TestNGframework.TestNG01_Annotations" />
+		</classes>
+	</test>
+	<test name="TestNG02">
+		<classes>
+			<class name="org.TestNGframework.TestNG02_Annotations" />
+		</classes>
+	</test>
+	
+
+</suite>
