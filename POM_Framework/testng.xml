@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="pom framework" verbose="10">
+    <test name="Login Test">
+        <!-- Define the URL parameter used in @BeforeMethod -->
+        <!-- <parameter name="url" value="https://practicetestautomation.com/practice-test-login/" /> -->
+        <classes>
+            <!-- Reference your actual test class, not Baseclass -->
+            <class name="org.PracticeSite.unittest.LoginTest" />
+        </classes>
+    </test>
+</suite>
