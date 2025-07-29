@@ -9,10 +9,10 @@ import org.testng.annotations.BeforeMethod;
 public class Baseclass {
 	protected WebDriver driver;
 	@BeforeMethod
-	public void browserLaunch(){
+	public void browserLaunch() throws InterruptedException{
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver.manage().timeouts().wait(2000); //implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		
 	}
