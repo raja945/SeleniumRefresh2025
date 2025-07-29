@@ -20,6 +20,7 @@ public class LoginTest extends Baseclass{
 		lp.loginUser("student", "password123");
 		Assert.assertTrue(lp.logoutLbl().isDisplayed(),"Loggedin Successfully");
 		System.out.println("Test Passed");
+		//commit authorisation check
 	}
 
 
