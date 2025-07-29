@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-27T00:53:22 IST" name="Default suite" finished-at="2025-07-27T00:53:26 IST" duration-ms="4451">
+  <suite started-at="2025-07-29T16:32:34 IST" name="Default suite" finished-at="2025-07-29T16:32:44 IST" duration-ms="9404">
     <groups>
     </groups>
-    <test started-at="2025-07-27T00:53:22 IST" name="Default test" finished-at="2025-07-27T00:53:26 IST" duration-ms="4451">
+    <test started-at="2025-07-29T16:32:34 IST" name="Default test" finished-at="2025-07-29T16:32:44 IST" duration-ms="9404">
       <class name="org.PracticeSite.unittest.LoginTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.PracticeSite.unittest.LoginTest@7c7b252e]" started-at="2025-07-27T00:53:22 IST" name="browserLaunch" finished-at="2025-07-27T00:53:26 IST" duration-ms="4071" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.PracticeSite.unittest.LoginTest@4d5d943d]" started-at="2025-07-29T16:32:34 IST" name="browserLaunch" finished-at="2025-07-29T16:32:43 IST" duration-ms="9011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="VerifyLoginTest()[pri:0, instance:org.PracticeSite.unittest.LoginTest@7c7b252e]" started-at="2025-07-27T00:53:26 IST" name="VerifyLoginTest" finished-at="2025-07-27T00:53:26 IST" duration-ms="206" status="PASS">
+        <test-method signature="VerifyLoginTest()[pri:0, instance:org.PracticeSite.unittest.LoginTest@4d5d943d]" started-at="2025-07-29T16:32:43 IST" name="VerifyLoginTest" finished-at="2025-07-29T16:32:44 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.PracticeSite.unittest.LoginTest@7c7b252e]" started-at="2025-07-27T00:53:26 IST" name="closeBrowser" finished-at="2025-07-27T00:53:26 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.PracticeSite.unittest.LoginTest@4d5d943d]" started-at="2025-07-29T16:32:44 IST" name="closeBrowser" finished-at="2025-07-29T16:32:44 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
